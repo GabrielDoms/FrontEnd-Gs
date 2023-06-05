@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagegs/favicon-32x32.png" type="image/x-icon">
+    <title>Parceiros - NO FOOD WASTE</title>
+</head>
+<body>
+    <header>
+        <img src="imagegs/Logo.png" class="image-logo2">
+        <p class="name-header2">NO FOOD WASTE</p>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="problema.html">Problema</a></li>
+              <li><a href="funcionamento.html">Nossa Ideia</a></li>
+              <li><a href="coleta.html">Coleta</a></li>
+              <li><a href="colaborador.html">Seja um colaborador</a></li>
+              <li><a href="parceiro.html">Parceiro</a></li>
+            </ul>
+        </nav>
+    <main>
+        <p class="parceiro-title"> Se você que ser um parceiro clique abaixo</p>
+        <p class="parceiro-arrow"> ↡ ↡ ↡</p>
+        <p class="parceiro-title2">Se você ja é um parceiro clique abaixo</p>
+        <p class="parceiro-arrow2"> ↡ ↡ ↡</p>
+
+        <button class="custom-button" onclick="openPopup()">Seja um parceiro</button>
+    
+    <div id="overlay" class="overlay"></div>
+    
+    <div id="popup" class="popup">
+        <span class="popup-close" onclick="closePopup()">&times;</span>
+        
+        <h2>Formulário de Parceria</h2>
+        
+        <form>
+            <label for="orgNome">Nome da Organização:</label>
+            <br>
+            <input type="text" id="orgNome" name="orgNome" required>
+            <br>
+            
+            <label for="qtdPessoas">Quantidade de Pessoas na Instituição:</label>
+            <br>
+            <input type="number" id="qtdPessoas" name="qtdPessoas" required>
+            <br>
+            
+            <label for="endereco">Endereço:</label>
+            <br>
+            <input type="text" id="endereco" name="endereco" required>
+            <br>
+            
+            <label for="cep">CEP:</label>
+            <br>
+            <input type="text" id="cep" name="cep" required>
+            <br>
+            
+            <label for="contato">Nome do Titular para Contato:</label>
+            <br>
+            <input type="text" id="contato" name="contato" required>
+            <br>
+            
+            <label for="telefone">Telefone:</label>
+            <br>
+            <input type="tel" id="telefone" name="telefone" required>
+            <br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+        <p class="parceiro-main">Gostaríamos de expressar nossa sincera gratidão pelo seu interesse em se candidatar para ser um parceiro da nossa empresa no combate ao desperdício de alimentos. Sua dedicação em ajudar a resolver esse problema crucial é realmente inspiradora.
+            No mundo de hoje, onde milhões de toneladas de alimentos são desperdiçadas todos os anos, é encorajador ver pessoas como você dispostas a se envolverem e fazerem a diferença. Ao se candidatar para ser nosso parceiro, você demonstrou um compromisso notável em reduzir o desperdício de alimentos e contribuir para um futuro mais sustentável.
+Acreditamos que a parceria é fundamental para enfrentar esse desafio. Trabalhar em conjunto, unindo esforços e compartilhando conhecimentos, nos permitirá desenvolver soluções inovadoras e impactantes. Estamos ansiosos para colaborar com você e aproveitar ao máximo sua experiência e ideias para criar um impacto positivo significativo.</p>
+        </p>
+    </main>
+
+    <footer class="copyright-parceiro">
+        <p class="copyright">&copy; Copyright NO FOOD WASTE - 2023 </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

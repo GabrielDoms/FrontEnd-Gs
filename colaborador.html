@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagegs/favicon-32x32.png" type="image/x-icon">
+    <title>Colaborador - NO FOOD WASTE</title>
+</head>
+<body>
+    <header>
+        <img src="imagegs/Logo.png" class="image-logo2">
+        <p class="name-header2">NO FOOD WASTE</p>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="problema.html">Problema</a></li>
+              <li><a href="funcionamento.html">Nossa Ideia</a></li>
+              <li><a href="coleta.html">Coleta</a></li>
+              <li><a href="colaborador.html">Seja um colaborador</a></li>
+              <li><a href="parceiro.html">Parceiro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-colaborador">
+        <p class="funcionamento-title"> Para ser um colaborador Clique no botão abaixo</p>
+
+        <div class="botao-centro">
+            <button class="botao-center" onclick="openPopup()">Colabore Já</button>
+        </div>
+    
+        <div id="popup-design" class="popup-design" onclick="closePopup()"></div>
+    
+        <div id="popup" class="popup-form">
+            <h2>Formulário</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required><br><br>
+    
+                <label for="rg">RG:</label>
+                <input type="number" id="rg" required><br><br>
+    
+                <label for="cep">CEP:</label>
+                <input type="number" id="cep" required><br><br>
+    
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" required><br><br>
+    
+                <label for="numero">Número da Casa:</label>
+                <input type="number" id="numero" required><br><br>
+    
+                <label for="cpf">CPF:</label>
+                <input type="number" id="cpf" required><br><br>
+    
+                <label for="horario">Melhor horário para contato:</label>
+                <select id="horario">
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select><br><br>
+    
+                <label>Itens a ser doados:</label><br>
+                <input type="checkbox" id="arroz" name="itens" value="arroz">
+                <label for="arroz">Arroz</label><br>
+    
+                <input type="checkbox" id="feijao" name="itens" value="feijao">
+                <label for="feijao">Feijão</label><br>
+    
+                <input type="checkbox" id="lentilha" name="itens" value="lentilha">
+                <label for="lentilha">Lentilha</label><br>
+    
+                <input type="checkbox" id="cereais" name="itens" value="cereais">
+                <label for="cereais">Cereais (como aveia, trigo, milho)</label><br>
+    
+                <input type="checkbox" id="farinha" name="itens" value="farinha">
+                <label for="farinha">Farinha de trigo, farinha de milho e farinha de mandioca</label><br>
+    
+                <input type="checkbox" id="leite" name="itens" value="leite">
+                <label for="leite">Leite em pó</label><br>
+    
+                <input type="checkbox" id="cafe" name="itens" value="cafe">
+                <label for="cafe">Café em pó</label><br><br>
+    
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <p class="colaborador-main"> Agradecemos sinceramente a sua valiosa colaboração, pois ela tem sido de extrema importância para o progresso e sucesso da causa em questão. Seu envolvimento tem sido fundamental para ajudar a melhorar a vida dessas pessoas e promover mudanças significativas em suas condições. Nós reconhecemos e valorizamos profundamente o seu apoio, pois ele tem feito a diferença de maneira significativa. Seu compromisso e dedicação são verdadeiramente inspiradores e temos profunda gratidão por tudo o que você tem feito. Continuaremos contando com a sua colaboração para alcançarmos ainda mais conquistas nessa causa tão nobre. Obrigado pelo seu inestimável apoio!</p>
+    </main>
+    <footer class="copyright-colaborador">
+        <p class="copyright">&copy; Copyright NO FOOD WASTE - 2023 </p>
+      </footer>
+      <script src="script_colabor.js"></script>
+</body>
+</html>
